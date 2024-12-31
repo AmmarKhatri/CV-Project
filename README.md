@@ -40,3 +40,11 @@ The project is divided into the following steps:
    ![WGAN-GAN 256 Resolution](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_256_Res_ins.gif)
 
 ---
+
+## Other links
+
+1. Drive Link for explanation videos:  
+   Drive: [https://drive.google.com/drive/folders/1GqZTRCM7BTeQUHKBNTw4iZ5QEh9GJJ47]
+
+2. Paper: [https://www.overleaf.com/7257895993bzvwwnxnphtm#797731]  
+---
