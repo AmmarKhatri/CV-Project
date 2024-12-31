@@ -17,6 +17,6 @@ GANs produced the best results so we trained them on generation_old.ipynb and ge
 
 
 Training time-lapse:
-![WGAN-GAN_128_Res_ins]{https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif}
+![WGAN-GAN_128_Res_ins](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif)
 
 ---
