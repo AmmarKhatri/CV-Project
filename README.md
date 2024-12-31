@@ -7,22 +7,36 @@ This repository contains the workflow and code required for a step-wise feasibil
 ## Overview
 
 The project is divided into the following steps:  
-1. **Tumor Segmentation**: Training and evaluation of segmentation model using SegResNet and MONAI Decathalon Dataset \\
-[http://medicaldecathlon.com/]\\
-Check the following Kaggle link:\\
-[https://www.kaggle.com/code/raycarterrete/3d-monai-brain-segmentation]\\
-2. **Data Preparation**: We took out largest cross_sections from the slices.  \\
-3. **Generative AI for Synthetic Data**: Generating synthetic MRI data with tumors using generative models like VAE and W-GANs.
-VAE was trained on a much larger dataset. \\
-Check code here: [https://www.kaggle.com/code/raycarterrete/diffusion-vae-mri-data]\\
-GANs produced the best results so we trained them on generation_old.ipynb and generation.ipynb files where cross-section data with tumor brain scans was used in old file while it was a different case for other file.\\
-4. **Evaluation Metrics**: Assessing the quality of segmentation and synthetic data.\\
+1. **Tumor Segmentation**:  
+   Training and evaluation of the segmentation model using SegResNet and the MONAI Decathalon Dataset.  
+   - Dataset: [http://medicaldecathlon.com/]  
+   - Kaggle example: [https://www.kaggle.com/code/raycarterrete/3d-monai-brain-segmentation]  
 
-## Training time-lapse:
-1. This GAN was trained on a much bigger dataset: (500 epochs) [https://www.kaggle.com/datasets/ashfakyeafi/brain-mri-images] \\
-<img src="https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif" width="300" alt="WGAN-GAN 128 Resolution">
-\\
+2. **Data Preparation**:  
+   Extracting the largest cross-sections from the slices.  
 
-2. This was trained on decathelon dataset [http://medicaldecathlon.com/] \\
-<img src="https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_256_Res_ins.gif" width="300" alt="WGAN-GAN 256 Resolution">
+3. **Generative AI for Synthetic Data**:  
+   Generating synthetic MRI data with tumors using generative models like VAE and W-GANs.  
+   - VAE: Trained on a larger dataset. Code available here:  
+     [https://www.kaggle.com/code/raycarterrete/diffusion-vae-mri-data]  
+   - GANs: Produced the best results.  
+     - Trained on `generation_old.ipynb` and `generation.ipynb`.  
+       - `generation_old.ipynb`: Used cross-section data with tumor brain scans.  
+       - `generation.ipynb`: Trained on different datasets.
+
+4. **Evaluation Metrics**:  
+   Assessing the quality of segmentation and synthetic data.
+
+---
+
+## Training Time-lapse
+
+1. GAN trained on a larger dataset (500 epochs):  
+   Dataset: [https://www.kaggle.com/datasets/ashfakyeafi/brain-mri-images]  
+   ![WGAN-GAN 128 Resolution](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif)  
+
+2. GAN trained on the Decathalon dataset:  
+   Dataset: [http://medicaldecathlon.com/]  
+   ![WGAN-GAN 256 Resolution](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_256_Res_ins.gif)
+
 ---
