@@ -15,4 +15,8 @@ VAE was trained on a much larger dataset. Check code here[https://www.kaggle.com
 GANs produced the best results so we trained them on generation_old.ipynb and generation.ipynb files where cross-section data with tumor brain scans was used in old file while it was a different case for other file.
 4. **Evaluation Metrics**: Assessing the quality of segmentation and synthetic data.
 
+
+Training time-lapse:
+![WGAN-GAN_128_Res_ins]{https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif}
+
 ---
