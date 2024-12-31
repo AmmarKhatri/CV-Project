@@ -16,7 +16,7 @@ GANs produced the best results so we trained them on generation_old.ipynb and ge
 4. **Evaluation Metrics**: Assessing the quality of segmentation and synthetic data.
 
 
-Training time-lapse:
-![WGAN-GAN_128_Res_ins](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif)
-
+## Training time-lapse:
+1. ![WGAN-GAN_128_Res_ins](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif)
+2. ![WGAN-GAN_256_Res_ins](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_256_Res_ins.gif)
 ---
