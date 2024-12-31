@@ -1,0 +1,8 @@
+/checkpoints
+/dataset
+/gez_images_*
+/selected_slices
+/wandb
+/whole_brain_images
+/.venv
+/*.pth
