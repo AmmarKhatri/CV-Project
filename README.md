@@ -35,7 +35,7 @@ The project is divided into the following steps:
    Dataset: [https://www.kaggle.com/datasets/ashfakyeafi/brain-mri-images]  
    ![WGAN-GAN 128 Resolution](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_128_Res_ins.gif)  
 
-2. GAN trained on the Decathalon dataset:  
+2. GAN trained on the Decathalon dataset (1000 epoch):  
    Dataset: [http://medicaldecathlon.com/]  
    ![WGAN-GAN 256 Resolution](https://github.com/AmmarKhatri/CV-Project/blob/main/WGAN-GAN_256_Res_ins.gif)
 
